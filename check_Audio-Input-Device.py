@@ -3,7 +3,7 @@ import pyaudio
 pa = pyaudio.PyAudio()
 
 # print("\nTotal Audio Device count : ", pa.get_device_count(), "\n")
-print("\n=== Microphone Devices ===")
+print("\n=== Audio Input Devices (Microphone) ===")
 
 for i in range(pa.get_device_count()):
     dev_info = pa.get_device_info_by_index(i)
