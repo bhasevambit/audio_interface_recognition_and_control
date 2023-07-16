@@ -4,7 +4,6 @@ pa = pyaudio.PyAudio()
 
 print("\n=== Audio Input Devices (Microphone) ===\n")
 
-
 for host_index in range(0, pa.get_host_api_count()):  # Host APIで大分類
 
     host_api_info = pa.get_host_api_info_by_index(host_index)
