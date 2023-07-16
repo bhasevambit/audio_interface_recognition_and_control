@@ -2,7 +2,6 @@ import pyaudio
 
 pa = pyaudio.PyAudio()
 
-# print("\nTotal Audio Device count : ", pa.get_device_count(), "\n")
 print("\n=== Audio Output Devices (Speaker) ===")
 
 for i in range(pa.get_device_count()):
