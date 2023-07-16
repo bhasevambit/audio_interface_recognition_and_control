@@ -12,7 +12,7 @@ for host_index in range(0, pa.get_host_api_count()):  # Host APIで大分類
         host_api_info["name"],
         "[INDEX:",
         host_api_info["index"],
-        ", Default-device index:",
+        ", Default-device-index:",
         host_api_info["defaultOutputDevice"],
         "] ---"
     )
