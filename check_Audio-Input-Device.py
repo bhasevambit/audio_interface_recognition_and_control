@@ -8,7 +8,7 @@ for host_index in range(0, pa.get_host_api_count()):  # Host APIで大分類
 
     host_api_info = pa.get_host_api_info_by_index(host_index)
     print(
-        "--- Host API :",
+        "  --- Host API :",
         host_api_info["name"],
         "[INDEX:",
         host_api_info["index"],
@@ -28,7 +28,7 @@ for host_index in range(0, pa.get_host_api_count()):  # Host APIで大分類
 
         if dev_info["maxInputChannels"] != 0:
             print(
-                "index:",
+                "  index:",
                 dev_info["index"],
                 " ",
                 dev_info["name"],
