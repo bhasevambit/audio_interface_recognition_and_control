@@ -1,5 +1,6 @@
 import pyaudio
 
+# PyAudioクラスのオブジェクトを生成
 pa = pyaudio.PyAudio()
 
 print("\n=== All Audio Devices ===\n")
