@@ -2,21 +2,19 @@
 
 This repository is Audio Interface and Sound Device Test Code.
 
-## Python Version
-
-This repository is used "**Python 3.11**".
-I recommend setting up "**venv**" with python version = "3.11".
-venv setup is below commands.
-
-`python -m venv .venv`
-
-## pip Requirements
-
-pip requirements install command is below.
-
-`pip install -r ./requirements.txt`
-
 ## Usage
+
+### python environment deployment
+
+```
+cd "$(git rev-parse --show-toplevel)"
+
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### python execution
 
 - **All Audio Device Listing (Microphone/Speaker)**
 
