@@ -17,8 +17,8 @@ pip install -r requirements.txt
 ### python execution
 
 > [!IMPORTANT]
-> Raspberry Pi (Ubuntu 24.04) で実行する場合は、事前に、`sudo su -` コマンドにて、root ユーザー に昇格した上で、下記コマンドを実行すること
-> ( その際、 which python コマンドにて、 audio_interface_recognition_and_control/.venv/bin/python が用いられることを事前確認すること )
+> Ubuntu 等の Linux で実行する場合は、事前に、下記コマンド等で、実行ユーザーを audio グループに所属させておくこと
+> ( コマンド例： `sudo usermod -aG audio <USERNAME>` )
 
 - **All Audio Device Listing (Microphone/Speaker)**
 
