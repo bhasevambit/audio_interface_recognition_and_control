@@ -37,6 +37,8 @@ for host_index in range(0, pa.get_host_api_count()):  # Host APIで大分類
                 dev_info["maxInputChannels"],
                 "/ OUT-Ch:",
                 dev_info["maxOutputChannels"],
+                "/ default Sampling Rate[Hz]:",
+                dev_info["defaultSampleRate"],
                 ")"
             )
 
